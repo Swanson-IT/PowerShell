@@ -1,5 +1,15 @@
-Get Version: $host.Version\
+Get Version: 
+$host.Version
+Quick way to get the PowerShell Version you are currently on
 
-Quick way to get the PowerShell Version you are currently on\
+Verb-Noun 
+Get (Verb) - Command (Noun)
 
-Ect...
+Get-Command-Noun N* | Gets all commands where the noun starts with No | *=wildcard
+Output: 
+PS C:\> Get-Command -Noun No*
+
+CommandType     Name                                               Version    Source   
+-----------     ----                                               -------    ------    
+Cmdlet          Get-NonRemovableAppsPolicy                         3.0        Dism      
+Cmdlet          Set-NonRemovableAppsPolicy                         3.0        Dism   
