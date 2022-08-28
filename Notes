@@ -1,0 +1,4 @@
+# PowerShell
+### Get Version: $host.Version
+Quick way to get the PowerShell Version you are currently on\
+Ect...
